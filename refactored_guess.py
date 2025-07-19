@@ -62,16 +62,3 @@ class GuessGame:
         self.attempts = 0
         self.is_guessed = False
 
-
-
-if __name__ == "__main__":
-    game = GuessGame()
-    game.play()
-
-    play_again = input("Do you want to play again? (y/n): ").lower()
-    if play_again == "y":
-        game.reset()
-        game.play()
-
-
-        
